@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keenwiix Store — New Season</title>
+    <meta name="description" content="Keenwiix Store — timeless pieces made to last. New season AW / 26." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="store.css" />
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Homepage">
+                <span class="keenwiix-logo">keenwiix</span>
+                <span class="logo-suffix">Store</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#featured">Shop</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="cart.html" class="nav-cart" aria-label="Shopping bag">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="mobile-menu" aria-label="Mobile navigation">
+        <a href="#featured">Shop</a>
+        <a href="#collection">Collection</a>
+        <a href="#story">Story</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Bag</a>
+    </nav>
+
+    <section class="hero" aria-label="Hero section">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/KNITWEAR.jpeg" alt="Quiet Essentials" class="hero-img">
+                <div class="figure-label">
+                    <span class="figure-season">AW / 26</span>
+                    <span class="figure-name">Quiet Essentials</span>
+                </div>
+            </div>
+            <div class="hero-text">
+                <span class="hero-label">New Season · Autumn-Winter 2026</span>
+                <h1 class="hero-headline">
+                    <span class="line"><span>Timeless</span></span>
+                    <span class="line"><span>pieces,</span></span>
+                    <span class="line"><span>made to last.</span></span>
+                </h1>
+                <p class="hero-description">
+                    A curated collection of quiet essentials — designed to be worn for years, not seasons. Thoughtfully made, honestly priced.
+                </p>
+                <div class="hero-cta">
+                    <a href="#featured" class="btn-primary">Explore collection <i class="fas fa-arrow-right"></i></a>
+                    <a href="#story" class="btn-secondary">Our story <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-meta">
+                    <span>Free shipping over $150</span>
+                    <span class="dot-sep">·</span>
+                    <span>30-day returns</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="section featured-section" aria-label="Featured pieces">
+        <div class="section-header">
+            <span class="label">Featured</span>
+            <h2>This season's<br />quiet favourites.</h2>
+        </div>
+        <div class="featured-grid">
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="images/KNITWEAR.jpeg" alt="Merino Wool Turtleneck" class="product-img" loading="lazy">
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Knitwear</span>
+                        <span class="product-price">$189</span>
+                    </div>
+                    <h3>Merino Wool Turtleneck</h3>
+                    <p>Soft, warm, and made to last. Ethically sourced from Portugal.</p>
+                    <button class="product-btn" data-product="turtleneck">Add to bag <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="images/OUTERWEAR.jpeg" alt="Wool Overcoat" class="product-img" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Outerwear</span>
+                        <span class="product-price">$429</span>
+                    </div>
+                    <h3>Wool Overcoat</h3>
+                    <p>A timeless silhouette, tailored for everyday elegance.</p>
+                    <button class="product-btn" data-product="coat">Add to bag <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="images/ACCESSORIES.jpeg" alt="Leather Card Holder" class="product-img" loading="lazy">
+                    <span class="product-tag">Limited</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span class="product-category">Accessories</span>
+                        <span class="product-price">$89</span>
+                    </div>
+                    <h3>Leather Card Holder</h3>
+                    <p>Full-grain leather. Minimal form. Built to age beautifully.</p>
+                    <button class="product-btn" data-product="wallet">Add to bag <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="collection" class="section categories-section" aria-label="Categories">
+        <div class="section-header">
+            <span class="label">Collection</span>
+            <h2>Browse by category.</h2>
+        </div>
+        <div class="categories-strip">
+            <a href="#" class="category-card">
+                <img src="images/WOMEN.jpeg" alt="Women" class="category-img" loading="lazy">
+                <div class="category-info">
+                    <span class="category-num">01</span>
+                    <h3>Women</h3>
+                    <span class="category-count">124 pieces</span>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/MEN.jpeg" alt="Men" class="category-img" loading="lazy">
+                <div class="category-info">
+                    <span class="category-num">02</span>
+                    <h3>Men</h3>
+                    <span class="category-count">98 pieces</span>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/Accessoriess.jpeg" alt="Accessories" class="category-img" loading="lazy">
+                <div class="category-info">
+                    <span class="category-num">03</span>
+                    <h3>Accessories</h3>
+                    <span class="category-count">56 pieces</span>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/HOME.jpeg" alt="Home" class="category-img" loading="lazy">
+                <div class="category-info">
+                    <span class="category-num">04</span>
+                    <h3>Home</h3>
+                    <span class="category-count">32 pieces</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="story" class="section story-section" aria-label="Our story">
+        <div class="story-grid">
+            <div class="story-visual">
+                <img src="images/STORY.jpeg" alt="Our Story" class="story-img" loading="lazy">
+            </div>
+            <div class="story-text">
+                <span class="label">Our Story</span>
+                <h2>Made slowly.<br />Worn forever.</h2>
+                <p>Keenwiix Store began with a simple idea — that the things we wear should be made with care, chosen with intention, and kept for years. Not seasons.</p>
+                <p>Every piece is designed in-house, produced in small batches, and made to be worn, repaired, and loved for a long time. We don't do trends. We do essentials.</p>
+                <div class="story-details">
+                    <div class="story-detail">
+                        <span class="story-num">01</span>
+                        <div class="story-content"><h4>Small batches</h4><p>We produce only what we can make well.</p></div>
+                    </div>
+                    <div class="story-detail">
+                        <span class="story-num">02</span>
+                        <div class="story-content"><h4>Honest pricing</h4><p>No middlemen. No markups. Just fair prices.</p></div>
+                    </div>
+                    <div class="story-detail">
+                        <span class="story-num">03</span>
+                        <div class="story-content"><h4>Made to last</h4><p>Every piece is built to be worn for years.</p></div>
+                    </div>
+                </div>
+                <a href="#" class="btn-secondary story-link">Read the full story <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section arrivals-section" aria-label="New arrivals">
+        <div class="section-header arrivals-header">
+            <div>
+                <span class="label">New Arrivals</span>
+                <h2>Just landed.</h2>
+            </div>
+            <a href="#" class="see-all-link">View all <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="arrivals-grid">
+            <article class="arrival-item">
+                <div class="arrival-image">
+                    <img src="images/SCARF.jpeg" alt="Cashmere Scarf" class="arrival-img" loading="lazy">
+                    <span class="arrival-tag">New</span>
+                </div>
+                <div class="arrival-info">
+                    <h4>Cashmere Scarf</h4>
+                    <div class="arrival-meta"><span>Accessories</span><span>$145</span></div>
+                    <button class="product-btn" data-product="scarf">Add to bag <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </article>
+            <article class="arrival-item">
+                <div class="arrival-image">
+                    <img src="images/SHIRT.jpeg" alt="Linen Shirt" class="arrival-img" loading="lazy">
+                </div>
+                <div class="arrival-info">
+                    <h4>Linen Shirt</h4>
+                    <div class="arrival-meta"><span>Women</span><span>$119</span></div>
+                    <button class="product-btn" data-product="shirt">Add to bag <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </article>
+            <article class="arrival-item">
+                <div class="arrival-image">
+                    <img src="images/BELT.jpeg" alt="Leather Belt" class="arrival-img" loading="lazy">
+                </div>
+                <div class="arrival-info">
+                    <h4>Leather Belt</h4>
+                    <div class="arrival-meta"><span>Accessories</span><span>$79</span></div>
+                    <button class="product-btn" data-product="belt">Add to bag <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </article>
+            <article class="arrival-item">
+                <div class="arrival-image">
+                    <img src="images/TOTE.jpeg" alt="Cotton Tote" class="arrival-img" loading="lazy">
+                </div>
+                <div class="arrival-info">
+                    <h4>Cotton Tote</h4>
+                    <div class="arrival-meta"><span>Home</span><span>$49</span></div>
+                    <button class="product-btn" data-product="tote">Add to bag <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section newsletter-section" aria-label="Newsletter">
+        <div class="newsletter-wrap">
+            <div class="newsletter-content">
+                <span class="label">Stay in touch</span>
+                <h2>Quiet updates,<br />never noise.</h2>
+                <p>New arrivals, restocks, and occasional notes from the studio. No spam, ever.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="your@email.com" aria-label="Email address" required />
+                    <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <span class="newsletter-note">Unsubscribe anytime · No spam</span>
+            </div>
+            <div class="newsletter-visual">
+                <img src="images/LETTER.jpeg" alt="Newsletter" class="newsletter-img" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-section" aria-label="Call to action">
+        <div class="cta-content">
+            <span class="label">Begin</span>
+            <h2>
+                <span class="line"><span>Shop with</span></span>
+                <span class="line"><span>intention.</span></span>
+            </h2>
+            <p>Browse the collection — free shipping over $150.</p>
+            <a href="#featured" class="btn-primary">Explore collection <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="keenwiix-logo">keenwiix</span>
+                    <span class="logo-suffix">Store</span>
+                </div>
+                <p>Made slowly. Worn forever.</p>
+            </div>
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#collection">Collections</a></li>
+                        <li><a href="#collection">Women</a></li>
+                        <li><a href="#collection">Men</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Studio</h4>
+                    <ul>
+                        <li><a href="#story">Our story</a></li>
+                        <li><a href="#">Materials</a></li>
+                        <li><a href="#">Journal</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Keenwiix Store. Concept project.</p>
+        </div>
+    </footer>
+    <button class="scroll-progress" aria-label="Scroll to top">0%</button>
+    <script src="store.js"></script>
+</body>
+</html>
